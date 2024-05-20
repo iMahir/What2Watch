@@ -4,7 +4,7 @@ import { getMovieById, getMovieByTitle } from "../tmdb/movie";
 import { OMDB_MovieData, getMovieByTitle_OMDB } from "../omdb/movie";
 import { TMDB_Movie, TMDB_Movie_Search_Response } from "../tmdb/types";
 
-const baseUrl = "https://bestsimilar.com";
+const baseUrl = "https://movie-proxy.screeneross3083.workers.dev/?destination=https://bestsimilar.com";
 
 interface SearchMovieResponse {
     id: string;
