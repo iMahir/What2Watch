@@ -1,0 +1,30 @@
+{
+  "name": "bestsimilar",
+  "version": "1.0.0",
+  "description": "Getting the best movie recommendations",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "tsc && npm run start"
+  },
+  "author": "github.com/iMahir",
+  "license": "ISC",
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.51",
+    "axios": "^1.6.7",
+    "canvas": "^2.10.2",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.4.5",
+    "instagram_mqtt": "^1.2.2",
+    "instagram-private-api": "^1.46.1",
+    "node-vibrant": "^3.2.1-alpha.1",
+    "re2": "^1.20.10",
+    "twitter-api-v2": "^1.16.1",
+    "undici": "^6.10.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  }
+}
